@@ -1,4 +1,4 @@
-# SSREnricher V1.0
+# SSREnricher V1.1
 
 This software can automatically enrich  polymorphic SSRs with transcripts.
 ![SSREnricher schematic diagram](picture/Schematic.png)
