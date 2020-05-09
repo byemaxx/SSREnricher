@@ -1,5 +1,14 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# Date: 2020.05.09
+# Author: Wu Qing
+# E-mail: cipn@qq.com
+# SSREnricher 
+# Version: V1.1
+# This software can automatically enrich polymorphic SSRs with transcripts.
+# -----------------------------------------------------------------------------
+
 from Bio import SeqIO
 import os
 import re
@@ -9,9 +18,9 @@ import time
 import subprocess
 
 def showHelpInfo():
-    print("-"*50+"\nSSRENRICHER V1.0 \n")
+    print("-"*50+"\nSSRENRICHER V1.1 \n")
     print( "This software can automatically enrich  polymorphic SSRs.\n"
-    "You just need to put all your fasta files from Trinity result in a folder,"
+    "You just need to put all your fasta files from Trinity result in a folder (and make sure the file suffix is .fasta),"
     "And then run the program.\n")
     print("-"*50+"\nSIMPLE USAGE:")
     print("Run polymorphic SSRs enriche analysis on Trinity result FASTA in <your dirctory>\n")
@@ -21,12 +30,10 @@ def showHelpInfo():
  
 
 def getArgs():
-    global samplesFile
     args = sys.argv[1:]
     if len(args) == 0:
         showHelpInfo()
     if os.path.isdir(args[0]) is True:
-        samplesFile = os.listdir(os.path.abspath(args[0]))
         print('The drictory is:' + os.path.abspath(args[0]))
         os.chdir(os.path.abspath(args[0]))
     else:
@@ -94,12 +101,12 @@ def fixGeneId():
 
 
 
-def callMisa():
+def callMisa(samples):
     for i in samples:
         os.system('perl ./misa.pl ' + i)
 
 
-def getSsrSeq():
+def getSsrSeq(samples):
     # get SSR sequcens from fasta by misa result ; combine all group
 
     for sample in samples:
@@ -131,7 +138,7 @@ def callCdHit():
     os.system('cd-hit-est -i all.ssr.fa -o cd-hit')
 
 
-def reformSSR():
+def reformSSR(samples):
     #samples = ['T1.fa', 'T2.fa', 'T3.fa']
     faD = SeqIO.to_dict(SeqIO.parse(open('all.ssr.fa'), 'fasta'))
     baseD = {'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G'}
@@ -314,7 +321,7 @@ def creatMisa():
 
 
 def main():
-    global samplesdir
+    #global samplesdir
     try:   
         t1 = time.perf_counter()
         getArgs()
@@ -323,13 +330,12 @@ def main():
         checkMuscle()
         if checkPerl() is True and checkMuscle() is True and checkCdhit() is True:
             fixGeneId()
-            global samples
             samples = getSamples('.fa')
             creatMisa()
-            callMisa()
-            getSsrSeq()
+            callMisa(samples)
+            getSsrSeq(samples)
             callCdHit()
-            reformSSR()
+            reformSSR(samples)
             getReverseSeq()
             enrichSSR()
             getFinal()

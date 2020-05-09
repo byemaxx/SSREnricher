@@ -1,5 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# Date: 2020.05.09
+# Author: Wu Qing
+# E-mail: cipn@qq.com
+# SSREnricher_GUI
+# Version: V1.1
+# This software can automatically enrich polymorphic SSRs with transcripts.
+# -----------------------------------------------------------------------------
 from Bio import SeqIO
 import os
 import re
@@ -85,12 +93,12 @@ def fixGeneId():
         i += 1
 
 
-def callMisa():
+def callMisa(samples):
     for i in samples:
         os.system('perl ./misa.pl ' + i)
 
 
-def getSsrSeq():
+def getSsrSeq(samples):
     # get SSR sequcens from fasta by misa result ; combine all group
     #samples = ['T1.fa', 'T3.fa', 'T2.fa']
 
@@ -123,7 +131,7 @@ def callCdHit():
     os.system('cd-hit-est -i all.ssr.fa -o cd-hit')
 
 
-def reformSSR():
+def reformSSR(samples):
     #samples = ['T1.fa', 'T2.fa', 'T3.fa']
     faD = SeqIO.to_dict(SeqIO.parse(open('all.ssr.fa'), 'fasta'))
     baseD = {'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G'}
@@ -221,7 +229,7 @@ def enrichSSR():
         if len(ma) > 1:
             open('enrichment.SSRs.txt', 'a').write(str(ll))
     
-    global resultDir
+    #global resultDir
     resultDir = time.strftime("Result_%Y-%m-%d_%H-%M", time.localtime())
     os.system('mkdir ../' + resultDir)
 
@@ -264,8 +272,9 @@ def enrichSSR():
             '.muscle')
         n += 1
     os.system('mkdir ../'+ resultDir + '/muscle_Result ; mv seq* ../'+ resultDir + '/muscle_Result; rm enrichment.SSRs*')
+    return resultDir
 
-def getFinal():
+def getFinal(resultDir):
     faDic = SeqIO.to_dict(SeqIO.parse('all.ssr.fa', 'fasta'))
     ssrDic = {}
     os.system('cat *.reformed > all.reformed')
@@ -323,16 +332,15 @@ def runCom_Cmd():
 
             t1 = time.perf_counter()
             fixGeneId()
-            global samples
             samples = getSamples('.fa')
             creatMisa()
-            callMisa()
-            getSsrSeq()
+            callMisa(samples)
+            getSsrSeq(samples)
             callCdHit()
-            reformSSR()
+            reformSSR(samples)
             getReverseSeq()
-            enrichSSR()
-            getFinal()
+            #enrichSSR()
+            getFinal(enrichSSR())
             t2 = time.perf_counter()
 
             showinfo(title='info', message='Enrich SSR Done! \n\nTotal time: ' + str(t2 - t1)[:-7] +
@@ -363,8 +371,8 @@ VScroll1.place(relx=0.96, rely=0.156, relwidth=0.019, relheight=0.823)
 infoWindow = Text(top, )
 infoWindow.place(relx=0.263, rely=0.156, relwidth=0.69, relheight=0.823)
 infoWindow.insert(
-    0.0, "\nSSRENRICHER V1.0\n\nThis software can automatically enrich  polymorphic SSRs.\n\n"
-    "You just need to select all of your fasta files from Trinity,\n\n"
+    0.0, "\nSSRENRICHER V1.1\n\nThis software can automatically enrich  polymorphic SSRs.\n\n"
+    "You just need to select all of your fasta files from Trinity ( make sure the file suffix is .fasta ),\n\n"
     "And then click the RUN button.\n\n"
     "Meanwhile,  you can make a cup of coffee and wait for the program to finish."
     "\n\n\n\nWarning:You need to install the following software and add to environment variables first："
