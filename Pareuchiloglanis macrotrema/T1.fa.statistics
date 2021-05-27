@@ -1,0 +1,622 @@
+Specifications
+==============
+
+Sequence source file: "T1.fa"
+
+Definement of microsatellites (unit size / minimum number of repeats):
+(1/10) (2/6) (3/5) (4/5) (5/5) (6/5) 
+
+Maximal number of bases interrupting 2 SSRs in a compound microsatellite:  100
+
+
+
+RESULTS OF MICROSATELLITE SEARCH
+================================
+
+Total number of sequences examined:              93365
+Total size of examined sequences (bp):           105967775
+Total number of identified SSRs:                 73611
+Number of SSR containing sequences:              36400
+Number of sequences containing more than 1 SSR:  17310
+Number of SSRs present in compound formation:    13853
+
+
+Distribution to different repeat type classes
+---------------------------------------------
+
+Unit size	Number of SSRs
+1	27025
+2	35063
+3	8543
+4	2519
+5	373
+6	88
+
+Frequency of identified SSR motifs
+----------------------------------
+
+Repeats	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59	60	61	62	63	64	65	66	67	68	69	70	71	72	73	74	75	76	77	78	79	80	81	82	83	84	85	86	87	88	89	90	91	92	93	94	95	96	97	98	total
+A	-	-	-	-	-	4416	2382	1555	947	626	582	393	286	222	161	128	124	83	93	48	10	21	24	13	25	15	14	16	10	18	10	10	3	14	8		5	2	5	5	4	4		1		1	1	1			2	1		1		1						1														1																			12293
+C	-	-	-	-	-	344	174	184	136	116	95	57	48	35	35	24	10	9	14		3	3		1	1			1						2					2	1	1									1		1																																										1	1299
+G	-	-	-	-	-	320	157	130	88	75	45	31	18	32	19	3	12	7	10	1	3		1		2	1		1		1		3	5																1										1										1																										968
+T	-	-	-	-	-	4256	2418	1545	1047	618	593	450	304	218	184	175	132	92	124	77	34	17	21	17	9	26	15	11	16	5	11	5	4	11	5	2	3			3	4	1	3		2		1															1		1		1				1			2																						12465
+AC	-	1116	726	504	426	381	1053	343	100	164	131	106	73	73	66	62	61	52	20	27	36	58	37	49	47	33	50	53	39	57	66	54	53	40	35	16	18	9																																																									6234
+AG	-	492	291	174	106	106	171	96	31	46	34	20	24	19	26	20	16	13	24	23	22	12	9	17	10	19	18	11	18	7	9	14	5	4	5	4	3						1																																																				1920
+AT	-	377	288	206	123	90	176	270																																																																																							1530
+CA	-	998	686	455	336	374	1012	354	94	129	110	66	74	76	50	37	51	42	47	43	45	34	41	39	43	47	42	35	54	46	58	58	40	33	24	21	11	2	2	2																																																							5711
+CG	-	56	15	10	6	4	1																																																																																								92
+CT	-	541	322	190	153	106	246	80	39	47	31	25	34	23	23	19	10	12	14	14	16	18	13	20	9	21	4	10	10	9	10	5	10	12	5	3	1	1	1	1	1		1	1																																																			2111
+GA	-	525	291	184	150	155	183	95	33	45	36	45	33	39	29	22	38	24	16	7	10	26	14	14	16	16	16	12	7	21	17	4	5	11	4	2	1																																																										2146
+GC	-	71	33	17	2	1	2																																																																																								126
+GT	-	1001	711	505	416	407	892	274	133	168	139	111	82	84	77	35	78	37	34	43	58	54	34	54	32	36	49	44	62	51	64	41	48	43	32	9	8	2									1																																																5949
+TA	-	332	206	144	125	151	197	307																																																																																							1462
+TC	-	694	454	313	201	138	292	146	43	56	49	57	46	45	37	28	28	21	18	24	28	21	22	13	27	30	16	20	20	22	13	20	17	10	7	4	5		1																																																								2986
+TG	-	748	462	354	314	284	961	229	85	105	84	79	67	68	54	33	54	35	48	42	45	34	36	46	53	42	55	37	46	63	55	41	48	38	18	21	10		2																																																								4796
+AAC	67	47	23	32	2	12	3	3	6	3	3		2		3																																																																																206
+AAG	79	38	14	24	5	7	12	6	5	1	1	1																																																																																			193
+AAT	255	115	83	58	14	25	10	18	12	17	11	6	6	3		1	1	1		2	1																																																																										639
+ACA	21	17	3	12	1			1			1																																																																																				56
+ACC	30	24	9	3	4		2																																																																																								72
+ACG	9				1																																																																																										10
+ACT	4	3	1	1																																																																																											9
+AGA	114	41	17	20	1	3	12	5	3	1	2		2		1																																																																																222
+AGC	65	26	17	5	1					1																																																																																					115
+AGG	50	16	11	5	2	2	1	1																																																																																							88
+AGT	5	11	2																																																																																												18
+ATA	83	49	58	55	8	10	8	15	8	6	3	4	1	3	4	2																																																																															317
+ATC	67	41	25	67	7	1	4	1	5		1	1																																																																																			220
+ATG	44	26	14	44	3	2	5	2		2		1																																																																																			143
+ATT	234	84	68	60	14	24	22	16	6	6	4	1	1	1			1						2																																																																								544
+CAA	37	11	16	6	4	3	5	6		2			1	2	3																																																																																96
+CAC	60	22	16	4		3			1					2					2																																																																												110
+CAG	113	28	29	12	4	1		2	2		2	4																																																																																			197
+CAT	88	78	48	51	11	7	12	6	1	6	1			2																																																																																	311
+CCA	54	24		8																																																																																											86
+CCG	8	14					1																																																																																								23
+CCT	39	29	16	10	2		2					1																																																																																			99
+CGA	3	1	1																																																																																												5
+CGC	7	1	1	1																																																																																											10
+CGG	10	1																																																																																													11
+CGT	3	5	5																																																																																												13
+CTA	8	3	1																																																																																												12
+CTC	85	44	23	13	2	3	1	2		2																																																																																					175
+CTG	76	28	16	11		1	1																																																																																								133
+CTT	43	38	15	23	3	9	4	3	5	4	1	3		2																																																																																	153
+GAA	36	43	19	17	6	2	4	2	1	8	2		1																																																																																		141
+GAC	16	9	3	2	1																																																																																										31
+GAG	110	48	45	38	12	1	2		4																																																																																						260
+GAT	83	42	42	39	2	9					1																																																																																				218
+GCA	28	23	17	7	1																																																																																										76
+GCC	15	4	3																																																																																												22
+GCG	21	8	3																																																																																												32
+GCT	51	30	15	23	3																																																																																										122
+GGA	81	33	7	9	5	4		1																																																																																							140
+GGC	14	5																																																																																													19
+GGT	16	12	2	5			1																																																																																								36
+GTA	17	4	4	5					1																																																																																						31
+GTC	13	4	3		1																																																																																										21
+GTG	20	12	11	4																																																																																											47
+GTT	24	17	14	10	3	10	2	4		1		2	1																																																																																		88
+TAA	69	69	43	43	17	29	10	10	10	4	7	2	1		1			1																																																																													316
+TAC	12	6	3	3		3				1						1																																																																															29
+TAG	9	4		2		1						1																																																																																			17
+TAT	75	58	49	40	9	48	15	11	12	6	5	5	1	1			1																																																																														336
+TCA	103	68	52	41	7	9	30	1	4			1							1																																																																												317
+TCC	112	55	29	29	2	3		1	2	1	1																																																																																				235
+TCG	10	8	3																																																																																												21
+TCT	97	43	21	18	4	14	1	5	1		2				1	2																																																																															209
+TGA	87	36	32	40	9	5	6	5	4		1	3		2																																																																																	230
+TGC	64	27	11	24	1	1	2			1																																																																																					131
+TGG	30	24	8	2					2																																																																																						66
+TGT	40	8	10	13		4			1	1	1		2					3			3																																																																										86
+TTA	178	93	77	65	23	27	13	13	16	7	4	12		2	1			2																																																																													533
+TTC	114	53	27	35	5	15	4	5	2	5		2	2	7	4	1		1					1				2																																																																				285
+TTG	94	24	13	16		1	1	3	3	3	1	1	1		1																																																																																162
+AAAC	21	21	2			5		1																																																																																							50
+AAAG	23	15	2	2	3		4	1		3	1	1																																																																																			55
+AAAT	48	16	2		3																																																																																										69
+AACA	6	9					1																																																																																								16
+AACC	1	2																																																																																													3
+AACG	2																																																																																														2
+AACT	1	1							1				1																																																																																		4
+AAGA	7	11	1		1	1					2																																																																																				23
+AAGG	3			2																																																																																											5
+AATA	21	6			1			1																																																																																							29
+AATC	3	2																																																																																													5
+AATG	2	9																																																																																													11
+AATT	3	4																																																																																													7
+ACAA	3	2	2		1																																																																																										8
+ACAG	14	12		1													1																																																																														28
+ACAT	3	2																																																																																													5
+ACGC	1	1																																																																																													2
+ACTA	1	1																																																																																													2
+ACTC	3	3				1																																																																																									7
+ACTG	1																																																																																														1
+ACTT	1																																																																																														1
+AGAA	25	8	4		3		2		3			1																																																																																			46
+AGAC	27	5					2																																																																																								34
+AGAT	24	27			1		1	1		1			1	1				1	2																																																																												60
+AGCC	3																																																																																														3
+AGCG	2																																																																																														2
+AGGA	2	2		1																																																																																											5
+AGGG	1																																																																																														1
+AGTA	1																																																																																														1
+AGTG	1					1											1																																																																														3
+AGTT		1	1																																																																																												2
+ATAA	10	5																																																																																													15
+ATAC	2	3						1																																																																																							6
+ATAG	11	10	3	1			1	2	1	2		2			1	3	1																																																																														38
+ATCA	4	4																																																																																													8
+ATCC	76	47	3	5	1	5																																																																																									137
+ATCT	14	32																																																																																													46
+ATGA	6	1																																																																																													7
+ATGC	1																																																																																														1
+ATGG	74	40	4	2		4																																																																																									124
+ATGT		1																																																																																													1
+ATTA	2																																																																																														2
+ATTC	4	8																																																																																													12
+ATTG	1	7																																																																																													8
+ATTT	16	9	1	1					1																																																																																						28
+CAAA	6	3		2	1	2	1	1																																																																																							16
+CAAC	4																																																																																														4
+CAAG						2																																																																																									2
+CAAT		3					1																																																																																								4
+CACC	1																																																																																														1
+CACG	5	8	1											1																																																																																	15
+CACT	4	5	1																																																																																												10
+CAGA	4	9		1	1																																																																																										15
+CAGG		1																																																																																													1
+CATA		1																																																																																													1
+CATC	52	48	2	3	4	1	3																																																																																								113
+CATT	3	3																																																																																													6
+CCAA	1																																																																																														1
+CCAG		6																																																																																													6
+CCAT	30	19	5	1	1	2																																																																																									58
+CCCA	1																																																																																														1
+CCCG		1																																																																																													1
+CCCT		4																																																																																													4
+CCGT	2																																																																																														2
+CCTC	1	1																																																																																													2
+CCTG	4																																																																																														4
+CCTT	4					1																																																																																									5
+CGAG	1																																																																																														1
+CGCA	2	5																																																																																													7
+CGTC	2																																																																																														2
+CGTG	1	2	1	1		1																																																																																									6
+CTAA		1							1																																																																																						2
+CTAC				1																																																																																											1
+CTAG	1																																																																																														1
+CTAT	6	17	1		1				2			1			1	1																																																																															30
+CTCA	5	5			1																																																																																										11
+CTCC		1	1																																																																																												2
+CTCG	2																																																																																														2
+CTGA	1						1						1																																																																																		3
+CTGC	5																																																																																														5
+CTGT	17	5	1	2	1						1																																																																																				27
+CTTA	2																																																																																														2
+CTTC	1	3	1								1																																																																																				6
+CTTT	18	6	2	2	1	2											1																																																																														32
+GAAA	4	7	2	1	1			1	2	1																																																																																					19
+GAAC	1																																																																																														1
+GAAG	1	1		1		2			1																																																																																						6
+GAAT	5	1					1		1																																																																																						8
+GACA	11	3																																																																																													14
+GACC		1																																																																																													1
+GACT	4	1																																																																																													5
+GAGG			1																																																																																												1
+GAGT	11	1				1																																																																																									13
+GATA	10	20	1		3				1			1																																																																																			36
+GATC	1																																																																																														1
+GATG	41	30	6	4	5	4	1																																																																																								91
+GCAC	3	5	1																																																																																												9
+GCGA	1																																																																																														1
+GCGT	3	3		1	1	1																																																																																									9
+GCTA	4																																																																																														4
+GCTC	1																																																																																														1
+GCTG			2																																																																																												2
+GGAA	4	1	2																																																																																												7
+GGAC	1				1																																																																																										2
+GGAT	10	11	3	2	1	1					1																																																																																				29
+GGGA	2																																																																																														2
+GGTA	9																																																																																														9
+GGTT						1																																																																																									1
+GTAA	4																																																																																														4
+GTAT	2	2				1																																																																																									5
+GTCA	4	1																																																																																													5
+GTCC	2																																																																																														2
+GTCT	9	5	1	1																																																																																											16
+GTGA	6	7			1	1					1																																																																																				16
+GTGC	12	10	8						1																																																																																						31
+GTTA	8	4																																																																																													12
+GTTT	13	3		1	1	2				1																																																																																					21
+TAAA	10	9	5				3	1																																																																																							28
+TAAC		2					1																																																																																								3
+TAAT	1																																																																																														1
+TACA	1	2				1																																																																																									4
+TAGA	10	15		1		1		3	2	2	2				2	1																																																																															39
+TAGC	1	2																																																																																													3
+TAGT	2	3																																																																																													5
+TATC	13	44	2		2						1					1																																																																															63
+TATG	5	3	1																																																																																												9
+TATT	9	4	1	2																																																																																											16
+TCAA	3	1		1									2																																																																																		7
+TCAC	4	4			1																																																																																										9
+TCAT	5	9																																																																																													14
+TCCA	40	21	5	4	1		1	1																																																																																							73
+TCCC		1																																																																																													1
+TCCG	1																																																																																														1
+TCCT	2																																																																																														2
+TCTA	9	23		2				2		8					1																																																																																45
+TCTG	23	12	1	1			1																																																																																								38
+TCTT	21	7		3		1	1	1		3								1	1																																																																												39
+TGAA	14	2																																																																																													16
+TGAC	1																																																																																														1
+TGAG			1			1																																																																																									2
+TGAT	2	1																																																																																													3
+TGCG	1	1																																																																																													2
+TGCT	1																																																																																														1
+TGGA	14	21	7	19	1	8						1																																																																																			71
+TGGT	5																																																																																														5
+TGTA	3	2				1				1																																																																																					7
+TGTC	10	6		1	1				1																																																																																						19
+TGTT	16	9	1			1																																																																																									27
+TTAA	3																																																																																														3
+TTAG	2	1		1																																																																																											4
+TTAT	11	12		2																																																																																											25
+TTCA	2	2		1	1	1																																																																																									7
+TTCC	2							1				1																																																																																			4
+TTCG	1																																																																																														1
+TTCT	17	9	5		1		1					3			1																																																																																37
+TTGA	3	2																																																																																													5
+TTGT	14	1	1		1																																																																																										17
+TTTA	37	9		2	1		1																																																																																								50
+TTTC	23	18	2	4		1	1		2		1	1									1																																																																										54
+TTTG	20	10	3	1	2	3																																																																																									39
+AAAAG	4	6		1		1																																																																																									12
+AAAAT	1			1																																																																																											2
+AAAGA	3		1																																																																																												4
+AAAGC	1																																																																																														1
+AAATA	3				1																																																																																										4
+AACAC	1		4																																																																																												5
+AAGAG	1											2																																																																																			3
+AAGCT	5																																																																																														5
+AAGGA								1																																																																																							1
+AATAA	6																																																																																														6
+AATAC	1																																																																																														1
+AATAG					1																																																																																										1
+AATAT	1				1	1																																																																																									3
+AATGC								1																																																																																							1
+AATTG	1																																																																																														1
+ACACA					2																																																																																										2
+ACACC		3																																																																																													3
+ACACG	1																																																																																														1
+ACATT	1																																																																																														1
+ACGTC	2																																																																																														2
+AGAAA		1									1																																																																																				2
+AGAAG	2		1					1																																																																																							4
+AGAGA	1																																																																																														1
+AGATC					2																																																																																										2
+AGATG					1																																																																																										1
+AGCCT	2																																																																																														2
+AGGCT	2																																																																																														2
+ATAAA	3																																																																																														3
+ATCAG	2																																																																																														2
+ATCTC	1	1																																																																																													2
+ATGAA	1																																																																																														1
+ATGAG	1																																																																																														1
+ATTAT			1																																																																																												1
+ATTTA		2																																																																																													2
+ATTTC	1																																																																																														1
+ATTTG	1																																																																																														1
+ATTTT	3	1																																																																																													4
+CACAA					1																																																																																										1
+CACAC	2																																																																																														2
+CACCG	1																																																																																														1
+CAGGA			1																																																																																												1
+CATCT		2				1	1																																																																																								4
+CCAAA				2																																																																																											2
+CCACA	1																																																																																														1
+CCCGC	1																																																																																														1
+CCGCT	2																																																																																														2
+CCTCA												1																																																																																			1
+CCTCC		5																																																																																													5
+CCTCT	4					1																																																																																									5
+CCTGT	1											1																																																																																			2
+CGGCT	2																																																																																														2
+CTAAG	1																																																																																														1
+CTAAT	2																																																																																														2
+CTACA										1																																																																																					1
+CTATA					1																																																																																										1
+CTATT					2																																																																																										2
+CTCAT	1																																																																																														1
+CTCCT	4			1																																																																																											5
+CTCTC	2												1																																																																																		3
+CTCTT		1																																																																																													1
+CTGAA	3																																																																																														3
+CTGCG		2																																																																																													2
+CTGCT	1																																																																																														1
+CTGTT	1																																																																																														1
+CTTAT											2																																																																																				2
+CTTCC	1																																																																																														1
+CTTCT	1										2																																																																																				3
+CTTTG	1																																																																																														1
+CTTTT	5	1	1	1																																																																																											8
+GAAAA	11	2						2																																																																																							15
+GAAAG	4												1																																																																																		5
+GAAGA								3																																																																																							3
+GAATC	1																																																																																														1
+GACGA	1																																																																																														1
+GACTC						1																																																																																									1
+GAGAA												1	1	1																																																																																	3
+GAGAC				1																																																																																											1
+GAGAG	2								1																																																																																						3
+GAGAT	1																																																																																														1
+GAGCA	1																																																																																														1
+GAGGA	1						1			1																																																																																					3
+GATCT	1																																																																																														1
+GATGG			2																																																																																												2
+GATTA			1																																																																																												1
+GCACA					1																																																																																										1
+GCCTA	3																																																																																														3
+GCCTC				1																																																																																											1
+GCGTT	1																																																																																														1
+GCTAA	2																																																																																														2
+GCTAG	1																																																																																														1
+GCTGT	2																																																																																														2
+GCTTA	2																																																																																														2
+GGAGA	2																			1																																																																											3
+GGCAG	1																																																																																														1
+GGCTC	1																																																																																														1
+GGGGC	5																																																																																														5
+GGGGT	1	1																																																																																													2
+GGGTG		1																																																																																													1
+GGTTA	7																																																																																														7
+GTCGA	2																																																																																														2
+GTCTC	2				1																																																																																										3
+GTGAC	2																																																																																														2
+GTGAT																			1																																																																												1
+GTGCA	1																																																																																														1
+GTGTA	1																																																																																														1
+GTTTG	1																																																																																														1
+TAAAA	2																																																																																														2
+TAAAC		1																																																																																													1
+TAAAT		1																																																																																													1
+TAAGC	2																																																																																														2
+TAATA	1																																																																																														1
+TACTA										1																																																																																					1
+TAGAC	1																																																																																														1
+TAGCC		1																																																																																													1
+TAGCT	3																																																																																														3
+TAGTG		2																																																																																													2
+TATAA						1																																																																																									1
+TATAT				1																																																																																											1
+TATTA	2																																																																																														2
+TCCTC	2																																																																																														2
+TCGTC		1																																																																																													1
+TCTCA	3	1																																																																																													4
+TCTCC	7						2		1			1																																																																																			11
+TCTCG	1																																																																																														1
+TCTCT	2	1									1																																																																																				4
+TCTGA	1																																																																																														1
+TCTTC	3				1																																																																																										4
+TCTTT	1		3																																																																																												4
+TGACT	10																																																																																														10
+TGAGA	4																																																																																														4
+TGAGC	8																																																																																														8
+TGATC	2																																																																																														2
+TGCTC	1																																																																																														1
+TGGCG	1																																																																																														1
+TGGGG	1																																																																																														1
+TGTCC			1																																																																																												1
+TGTGT	1																																																																																														1
+TGTTC			1																																																																																												1
+TTAGC	6																																																																																														6
+TTAGT	1	1																																																																																													2
+TTATA	2		1																																																																																												3
+TTCCT									1																																																																																						1
+TTCTC															1																																																																																1
+TTCTG			1			1																																																																																									2
+TTCTT	1	2				1																																																																																									4
+TTGAT		1																																																																																													1
+TTTAT	6														1																																																																																7
+TTTCT	4		2																																																																																												6
+TTTGG				2																																																																																											2
+TTTGT	1																																																																																														1
+TTTTA	2				1			3																																																																																							6
+TTTTC		1	1							1																																																																																					3
+TTTTG	1																																																																																														1
+AAAGGA								1																																																																																							1
+AAATAC	2																																																																																														2
+ACACCA			1																																																																																												1
+ACAGAC		1		3																																																																																											4
+ACAGAG						1																																																																																									1
+ACCGAT	1																																																																																														1
+ACCTTC		1																																																																																													1
+ACTCAC				1																																																																																											1
+AGGAGC	1																																																																																														1
+ATGAGA	2																																																																																														2
+ATGTAA	1																																																																																														1
+ATTTTT	1																																																																																														1
+CACACG				1																																																																																											1
+CACACT				1																																																																																											1
+CACCTT	1																																																																																														1
+CACTCA									1																																																																																						1
+CAGACA		1																																																																																													1
+CAGAGA		1																																																																																													1
+CAGGGT								1																																																																																							1
+CCAGGT			13																																																																																												13
+CCGTGT	1																																																																																														1
+CCTAAC	1																																																																																														1
+CCTCCA		1																																																																																													1
+CGTGTG				1																																																																																											1
+CTAACC				2																																																																																											2
+CTATTT						1																																																																																									1
+CTCTCA	1		1																																																																																												2
+CTGTGT					1																																																																																										1
+GAGAGT				2																																																																																											2
+GAGTGA							6																																																																																								6
+GCACAC			1																																																																																												1
+GCACGA	1																																																																																														1
+GCGTGT					1																																																																																										1
+GGCCCC			1																																																																																												1
+GGGGCA								4																																																																																							4
+GGTTAG		1																																																																																													1
+GTCCTC	1																																																																																														1
+GTGAAG	1																																																																																														1
+GTGAGG				1																																																																																											1
+GTGAGT						1																																																																																									1
+GTGCGT				1																																																																																											1
+GTGTGA				1																																																																																											1
+GTGTGC	4		2																																																																																												6
+TAACCC	1																																																																																														1
+TAGGGT			1																																																																																												1
+TATATG	1																																																																																														1
+TCCTTC	1																																																																																														1
+TCTGTG		1																																																																																													1
+TGAGTG		1																																																																																													1
+TGGACG			1																																																																																												1
+TGTAAA	1																																																																																														1
+TTATTC								2																																																																																							2
+TTCCCT																	1																																																																														1
+TTCTAG		1																																																																																													1
+
+Frequency of classified repeat types (considering sequence complementary)
+-------------------------------------------------------------------------
+
+Repeats	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59	60	61	62	63	64	65	66	67	68	69	70	71	72	73	74	75	76	77	78	79	80	81	82	83	84	85	86	87	88	89	90	91	92	93	94	95	96	97	98	total
+A/T	-	-	-	-	-	8672	4800	3100	1994	1244	1175	843	590	440	345	303	256	175	217	125	44	38	45	30	34	41	29	27	26	23	21	15	7	25	13	2	8	2	5	8	8	5	3	1	2	1	2	1			2	1		1		1						2		1		1				1			2			1																			24758
+C/G	-	-	-	-	-	664	331	314	224	191	140	88	66	67	54	27	22	16	24	1	6	3	1	1	3	1		2		1		3	5	2					2	1	1								1	1		1							1										1																									1	2267
+AC/GT	-	3863	2585	1818	1492	1446	3918	1200	412	566	464	362	296	301	247	167	244	166	149	155	184	180	148	188	175	158	196	169	201	217	243	194	189	154	109	67	47	13	4	2							1																																																22690
+AG/CT	-	2252	1358	861	610	505	892	417	146	194	150	147	137	126	115	89	92	70	72	68	76	77	58	64	62	86	54	53	55	59	49	43	37	37	21	13	10	1	2	1	1		2	1																																																			9163
+AT/AT	-	709	494	350	248	241	373	577																																																																																							2992
+CG/CG	-	127	48	27	8	5	3																																																																																								218
+AAC/GTT	283	124	79	89	10	30	11	17	10	10	6	3	7	2	7			3			3																																																																										694
+AAG/CTT	483	256	113	137	24	50	37	26	17	19	8	6	5	9	6	3		1					1				2																																																																				1203
+AAT/ATT	894	468	378	321	85	163	78	83	64	46	34	30	10	10	6	3	3	4		2	1		2																																																																								2685
+ACC/GGT	210	118	46	26	4	3	3		3					2					2																																																																												417
+ACG/CGT	54	27	15	2	3																																																																																										101
+ACT/AGT	55	31	11	11		4			1	1		1				1																																																																															116
+AGC/CTG	397	162	105	82	10	3	3	2	2	2	2	4																																																																																			774
+AGG/CCT	477	225	131	104	25	13	6	5	6	3	1	1																																																																																			997
+ATC/ATG	472	291	213	282	39	33	57	15	14	8	4	6		4					1																																																																												1439
+CCG/CGG	75	33	7	1			1																																																																																								117
+AAAC/GTTT	99	58	9	4	6	13	2	2		1																																																																																					194
+AAAG/CTTT	138	81	18	12	10	5	9	3	7	7	4	6			1		1	1	1		1																																																																										305
+AAAT/ATTT	162	70	9	7	5		4	2	1																																																																																						260
+AACC/GGTT	11	2				1																																																																																									14
+AACG/CGTT	4																																																																																														4
+AACT/AGTT	14	14	1	1			1		2				1																																																																																		34
+AAGC/CTTG	1					2																																																																																									3
+AAGG/CCTT	19	7	3	4		3		1	1		1	1																																																																																			40
+AAGT/ACTT	8																																																																																														8
+AATC/ATTG	16	20		1			1						2																																																																																		40
+AATG/ATTC	41	35		1	1	1	1		1																																																																																						81
+AATT/AATT	9	4																																																																																													13
+ACAG/CTGT	115	57	3	7	3		3		1		1						1																																																																														191
+ACAT/ATGT	16	16	1			3		1		1																																																																																					38
+ACCC/GGGT	2																																																																																														2
+ACCG/CGGT		1																																																																																													1
+ACCT/AGGT	9			1																																																																																											10
+ACGC/CGTG	28	35	11	2	1	2			1					1																																																																																	81
+ACGG/CCGT	8				1																																																																																										9
+ACTC/AGTG	34	25	2		3	5					1						1																																																																														71
+ACTG/AGTC	11	2					1						1																																																																																		15
+AGAT/ATCT	97	188	7	4	7	1	2	8	6	13	3	4	1	1	5	6	1	1	2																																																																												357
+AGCC/CTGG	3	6	2																																																																																												11
+AGCG/CGCT	7																																																																																														7
+AGCT/AGCT	6	2																																																																																													8
+AGGC/CCTG	9	1																																																																																													10
+AGGG/CCCT	4	7	2																																																																																												13
+ATCC/ATGG	337	237	35	40	14	25	5	1			1	1																																																																																			696
+ATCG/ATCG	1																																																																																														1
+ATGC/ATGC	1																																																																																														1
+CCCG/CGGG		1																																																																																													1
+AAAAC/GTTTT	2																																																																																														2
+AAAAG/CTTTT	29	13	8	2		2		2		1	1																																																																																				58
+AAAAT/ATTTT	26	1		1	2			3							1																																																																																34
+AAACC/GGTTT	1			4																																																																																											5
+AAACT/AGTTT	1	2																																																																																													3
+AAAGC/CTTTG	2																																																																																														2
+AAAGG/CCTTT	4							1	1				1																																																																																		7
+AAATC/ATTTG	1	1																																																																																													2
+AAATG/ATTTC	2																																																																																														2
+AAATT/AATTT		3																																																																																													3
+AACAC/GTGTT	2		4		3																																																																																										9
+AACAG/CTGTT	1		2			1																																																																																									4
+AACCT/AGGTT	7																																																																																														7
+AACGC/CGTTG	1																																																																																														1
+AACTG/AGTTC	3																																																																																														3
+AAGAG/CTCTT	10	2	1		1			4			3	3	1	1	1																																																																																27
+AAGAT/ATCTT											2																																																																																				2
+AAGCT/AGCTT	21																																																																																														21
+AAGGG/CCCTT	1																																																																																														1
+AAGTC/ACTTG	10																																																																																														10
+AATAC/ATTGT	1																																																																																														1
+AATAG/ATTCT					3																																																																																										3
+AATAT/ATATT	6		2	1	1	2																																																																																									12
+AATCG/ATTCG	1																																																																																														1
+AATCT/AGATT	2		1																																																																																												3
+AATGC/ATTGC								1																																																																																							1
+AATGT/ACATT	1																																																																																														1
+AATTC/AATTG	1																																																																																														1
+ACACC/GGTGT	3	3																																																																																													6
+ACACG/CGTGT	1																																																																																														1
+ACACT/AGTGT	1	2								1																																																																																					4
+ACAGC/CTGTG	2				1																																																																																										3
+ACAGG/CCTGT	1		2									1																																																																																			4
+ACATC/ATGTG																			1																																																																												1
+ACCCC/GGGGT	2	2																																																																																													4
+ACCGC/CGGTG	1																																																																																														1
+ACCTC/AGGTG												1																																																																																			1
+ACGAG/CGTCT	4	1		1	1																																																																																										7
+ACGCC/CGTGG	1																																																																																														1
+ACGTC/ACGTG	4																																																																																														4
+ACTAG/AGTCT	1																																																																																														1
+ACTAT/AGTAT					1					1																																																																																					2
+ACTCG/AGTCG	2					1																																																																																									3
+ACTGC/AGTGC	1																																																																																														1
+AGAGC/CTCTG	3																																																																																														3
+AGAGG/CCTCT	24			1		1	3		2	1		1	1							1																																																																											35
+AGATC/ATCTG	6				2																																																																																										8
+AGATG/ATCTC	11	4			1	1	1																																																																																								18
+AGCCG/CGGCT	3																																																																																														3
+AGCCT/AGGCT	8	1																																																																																													9
+AGCGC/CGCTG		2																																																																																													2
+AGCGG/CCGCT	2																																																																																														2
+AGCTC/AGCTG	8																																																																																														8
+AGGCG/CCTCG				1																																																																																											1
+AGGGC/CCCTG	1																																																																																														1
+AGGGG/CCCCT		5																																																																																													5
+ATCCC/ATGGG			2																																																																																												2
+CCCCG/CGGGG	6																																																																																														6
+AAAAAT/ATTTTT	1																																																																																														1
+AAAAGG/CCTTTT								1																																																																																							1
+AAAGGG/CCCTTT																	1																																																																														1
+AAATAC/ATTTGT	2																																																																																														2
+AAATAG/ATTTCT						1																																																																																									1
+AAATGT/ACATTT	2																																																																																														2
+AACACC/GGTGTT			1																																																																																												1
+AACCCT/AGGGTT	2	1	1	2																																																																																											6
+AACTAG/AGTTCT		1																																																																																													1
+AAGAAT/ATTCTT								2																																																																																							2
+AAGGAG/CCTTCT	1																																																																																														1
+AAGGTG/ACCTTC	2	1																																																																																													3
+AATGAG/ATTCTC	2																																																																																														2
+ACACAG/CTGTGT		3		3	1																																																																																										7
+ACACGC/CGTGTG	4		3	3	1																																																																																										11
+ACACGG/CCGTGT	1																																																																																														1
+ACACTC/AGTGTG		1		3		1			1																																																																																						6
+ACAGAG/CTCTGT		1				1																																																																																									2
+ACATAT/ATATGT	1																																																																																														1
+ACCCTC/AGGGTG				1																																																																																											1
+ACCCTG/AGGGTC								1																																																																																							1
+ACCGAT/ATCGGT	1																																																																																														1
+ACCTCC/AGGTGG		1																																																																																													1
+ACCTGG/AGGTCC			13																																																																																												13
+ACGAGC/CGTGCT	1																																																																																														1
+ACGAGG/CCTCGT	1																																																																																														1
+ACGTCC/ACGTGG			1																																																																																												1
+ACTCTC/AGAGTG	1		1	2			6																																																																																								10
+AGCAGG/CCTGCT	1																																																																																														1
+AGGGGC/CCCCTG								4																																																																																							4
+CCCCGG/CCGGGG			1																																																																																												1
