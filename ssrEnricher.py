@@ -3,7 +3,6 @@
 # -----------------------------------------------------------------------------
 # Date: 2020.05.09
 # Author: Wu Qing
-# E-mail: cipn@qq.com
 # SSREnricher 
 # Version: V1.1
 # This software can automatically enrich polymorphic SSRs with transcripts.
